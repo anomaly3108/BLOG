@@ -20,7 +20,7 @@ class Author extends React.Component {
       <div className='author'>
         <img className='pic' src={ require('../../components/image.jpg') } />
         <div>
-        <h1>AVIRAL SHARMA</h1><br></br>
+        <h1>{this.props.match.params.author.toUpperCase()}</h1><br></br>
         <span className='details'>Some details about the author</span><br></br>
         <span>Social links</span>
         </div>

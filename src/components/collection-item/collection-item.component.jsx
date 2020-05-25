@@ -3,12 +3,9 @@ import { Link } from 'react-router-dom';
 
 import './collection-item.styles.scss';
 
-const title = ({match}) =>{
-  return (<h1>{match.params.title}</h1>)
-  }
-
 const CollectionItem = ({ id, name, author, imageUrl }) => (
-    <Link className='collection-item' to='/blog-page/:title'>
+    // strin = '/blog-page/'+{name}
+    <Link className='collection-item' to={`/blog-page/${name}`}>
       <div
         className='image'
         style={{

@@ -15,10 +15,10 @@ function App() {
     <div>
       <Header />
       <Switch>
-        <Route exact path='/' component={HomePage} />
+        <Route exact path='/' component={blog} />
         <Route path='/trending' component={blog} />
-        <Route path='/author' component={Author} />
-        <Route path='/blog-page' component={blogpage} />
+        <Route path='/author/:author' component={Author} />
+        <Route path='/blog-page/:title' component={blogpage} />
         <Route path='/signin' component={SignInAndSignUpPage} />
       </Switch>
     </div>

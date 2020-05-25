@@ -6,7 +6,7 @@ const AUTHOR_DATA = [
       items: [
         {
           id: 1,
-          name: 'Any random title',
+          name: 'Any random title Any random title Any random title Any random Any random title Any random title',
           price: 'name',
           imageUrl: 'https://winatweb.com/wp-content/uploads/2019/04/what-is-a-blog.png',
           details: 'blog descriptions blog descriptions blog descriptions blog descriptions ',
